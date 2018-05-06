@@ -8,6 +8,10 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a id="brand">Ashley O'Neal</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
@@ -22,34 +26,44 @@
             
             </ul>
         </div>
-        </nav>
+    </nav>       
+
         <div class="background">
             <div class="container">
-                <div class="content">
-                    <br>
-                    <h1>Contact Me</h1>
-                    <hr>
-                    <form>
-                        <label for="username">Name:</label>
+                <div class="row">
+                    <div class="col-sm-12 content">
                         <br>
-                        <input id="username" type="email" placeholder="Name" required class="user">
-                        <br>	
-                        <label for="email">Email:</label>
-                        <br>
-                        <input id="email" name="email" type="email" placeholder="Email" required class="user">
-                        <br>
-                        <label for="comments">Comments:</label> 
-                        <br>
-                        <textarea name="comments" id="comments"></textarea>
-                        <br>
-                    </form>
-                    <input type="Submit" class="button">
+                        <h1>Contact Me</h1>
+                        <hr>
+                        <form>
+                            <label for="username">Name:</label>
+                            <br>
+                            <input id="username" type="email" placeholder="Name" required class="user">
+                            <br>	
+                            <label for="email">Email:</label>
+                            <br>
+                            <input id="email" name="email" type="email" placeholder="Email" required class="user">
+                            <br>
+                            <label for="comments">Comments:</label> 
+                            <br>
+                            <textarea name="comments" id="comments"></textarea>
+                            <br>
+                        </form>
+                        <input type="Submit" class="button">
+                    </div>
                 </div>
             </div>
         </div>
-        <footer>
-            <p>Copywrite ©</p>
-        </footer>
+
+    <footer>
+        <p>Copywrite ©</p>
+    </footer>
+
+       <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>    
     
 </body>
 </html>
